@@ -4,7 +4,7 @@ import br.com.db1.exercicio02.type.Tamanho;
 
 public class Roupa {
 	
-	Tamanho tamanho;
+	private Tamanho tamanho;
 	private String marca;
 	private Integer anoFabricacao;
 	
