@@ -2,7 +2,7 @@ package br.com.db1.exercicio08;
 
 public class Agencia {
 	private Integer numero;
-	private Integer digitoVerificador;
+	private String digitoVerificador;
 	
 	public void calcularDigitoVerificador() {
 		
@@ -16,10 +16,10 @@ public class Agencia {
 	public void setNumero(Integer numero) {
 		this.numero = numero;
 	}
-	public Integer getDigitoVerificador() {
+	public String getDigitoVerificador() {
 		return digitoVerificador;
 	}
-	public void setDigitoVerificador(Integer digitoVerificador) {
+	public void setDigitoVerificador(String digitoVerificador) {
 		this.digitoVerificador = digitoVerificador;
 	}
 	

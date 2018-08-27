@@ -1,6 +1,6 @@
 package br.com.db1.exercicio08;
 
-public class PessoaFisica {
+public class PessoaFisica extends Pessoa {
 	private Integer cpf;
 
 	public Boolean validarCpf() {
